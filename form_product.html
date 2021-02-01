@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>FORM PRODUCT</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Form Tambah Product</h2>
+        <div class="row">
+            <div class="col-6 mt-2 mb-2">
+                <form action="" method="POST" id="form" enctype="multipart/form-data">
+                    <div class="form-group row">
+                        <label for="nama" class="col-2 col-form-label">Nama</label>
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Nama Product" id="nama">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Keterangan" class="col-2 col-form-label">Keterangan</label>
+                        <div class="col-6">
+                            <select name="keterangan" id="keterangan" class="form-control">
+                                <option value="BEKAS">BEKAS</option>
+                                <option value="BARU">BARU</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="harga" class="col-2 col-form-label">Harga</label>
+                        <div class="col-6">
+                            <input type="number" class="form-control" placeholder="Harga" id="harga">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="jumlah" class="col-2 col-form-label">Jumlah</label>
+                        <div class="col-6">
+                            <input type="number" class="form-control" placeholder="Jumlah" id="jumlah">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <a href="index.html" class="btn btn-danger mr-3">Kembali</a>
+                        <input type="submit" href="index.html"  id="submit" class="btn btn-primary" / value="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="add_data.js"></script>
+</html>
